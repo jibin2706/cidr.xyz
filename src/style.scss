@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono');
+
+$color_a: #a101a6;
+$color_b: #d9005b;
+$color_c: #84e900;
+$color_d: #cff700;
+$color_e: #aaa;
+$octet_lighten: 15%;
+
+body, html, .container {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: 'Ubuntu', sans-serif;
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  .container {
+    margin: 0 auto;
+  }
+  header {
+    padding: 0 1em;
+    h1 {
+      font-size: modular-scale(2);
+      small {
+        text-transform: uppercase;
+        color: #669;
+        display: block;
+      }
+    }
+    p {
+      font-size: modular-scale(-1);
+    }
+  }
+
+  div.ip-address {
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    div {
+      margin-top: 65px;
+    }
+    div.address {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      input {
+        width: 2.5em;
+        font-size: 2.7em;
+        text-align: center;
+        border: 0px;
+        border-radius: 3px;
+      }
+      > .octet,
+      .cidr {
+        margin: 10px;
+      }
+      span.octet {
+        span.dot {
+          font-size: 2.7em;
+          text-align: center;
+          padding: 0.1em 0.13em;
+        }
+        &:nth-child(1) input.octet {
+          background-color: $color_a;
+        }
+        &:nth-child(2) input.octet {
+          background-color: $color_b;
+        }
+        &:nth-child(3) input.octet {
+          background-color: $color_c;
+        }
+        &:nth-child(4) input.octet {
+          background-color: $color_d;
+        }
+      }
+      input.cidr {
+        background-color: $color_e;
+      }
+    }
+    div.bits {
+      ol {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+        li.octet {
+          display: flex;
+          ol {
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            li.bit {
+              display: flex;
+              justify-content: center;
+              padding: 0.4em 0.6em;
+              margin-left: -1px;
+              border: 1px black solid;
+            }
+          }
+          &:nth-child(1) ol li.bit.unmasked {
+            background-color: lighten($color_a, $octet_lighten);
+          }
+          &:nth-child(2) ol li.bit.unmasked {
+            background-color: lighten($color_b, $octet_lighten);
+          }
+          &:nth-child(3) ol li.bit.unmasked {
+            background-color: lighten($color_c, $octet_lighten);
+          }
+          &:nth-child(4) ol li.bit.unmasked {
+            background-color: lighten($color_d, $octet_lighten);
+          }
+          ol li.bit.masked {
+            background-color: lighten($color_e, $octet_lighten);
+            color: lighten($color_e, 22%);
+          }
+        }
+      }
+    }
+    div.details {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      > span {
+        padding: 15px;
+      }
+      span.label {
+        display: block;
+        font-family: 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+        font-size: modular-scale(2);
+        font-weight: bold;
+        color: #779;
+      }
+    }
+  }
+
+  footer {
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    font-size: modular-scale(-1);
+  }
+
+  @media screen and (max-width:700px) {
+    div.bits {
+      li.octet {
+        width: 100%;
+        ol {
+          padding-left: 20px !important; 
+          padding-right: 20px !important;         
+          width: 100%;
+
+          .bit {
+          flex-grow: 1; 
+
+          }
+        }
+      }
+    }
+  }
+}
