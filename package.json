@@ -13,6 +13,7 @@
     "netmask": "^1.0.6",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-ga": "^2.5.7",
     "react-hot-loader": "^4.3.12",
     "react-static": "^6.0.18",
     "react-static-plugin-sass": "^6.3.0"

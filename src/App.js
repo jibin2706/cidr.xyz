@@ -1,9 +1,15 @@
 import React, { Component } from "react";
+import ReactGA from "react-ga";
 import { Netmask } from "netmask";
 import Header from "./components/header";
 
 import Footer from "./components/footer";
 import Meta from "./components/meta";
+
+function initializeReactGA() {
+  ReactGA.initialize("UA-133322442-2");
+  ReactGA.pageview("/");
+}
 
 class App extends Component {
   constructor(props) {
@@ -14,6 +20,10 @@ class App extends Component {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleKeyDown = this.handleKeyDown.bind(this);
+  }
+
+  componentDidMount() {
+    initializeReactGA();
   }
 
   handleChange(event) {
