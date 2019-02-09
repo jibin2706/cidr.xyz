@@ -1,5 +1,5 @@
 {
-  "entry": "D:\\dev\\cidr-static-react\\src\\index.js",
+  "entry": "D:\\dev\\cidr.xyz\\src\\index.js",
   "prefetchRate": 5,
   "maxThreads": null,
   "disableRoutePrefixing": false,
@@ -14,32 +14,32 @@
   "preloadPollInterval": 300,
   "plugins": [
     {
-      "location": "D:\\dev\\cidr-static-react\\node_modules\\react-static-plugin-sass",
-      "nodeLocation": "D:\\dev\\cidr-static-react\\node_modules\\react-static-plugin-sass\\node.api.js",
+      "location": "D:\\dev\\cidr.xyz\\node_modules\\react-static-plugin-sass",
+      "nodeLocation": "D:\\dev\\cidr.xyz\\node_modules\\react-static-plugin-sass\\node.api.js",
       "options": {},
       "hooks": {}
     },
     {
-      "location": "D:\\dev\\cidr-static-react",
+      "location": "D:\\dev\\cidr.xyz",
       "options": {},
       "hooks": {}
     }
   ],
   "paths": {
-    "ROOT": "D:\\dev\\cidr-static-react",
-    "LOCAL_NODE_MODULES": "D:\\dev\\cidr-static-react\\node_modules\\react-static\\node_modules",
-    "SRC": "D:\\dev\\cidr-static-react\\src",
-    "PAGES": "D:\\dev\\cidr-static-react\\src\\pages",
-    "DIST": "D:\\dev\\cidr-static-react\\dist",
-    "ASSETS": "D:\\dev\\cidr-static-react\\dist",
-    "PLUGINS": "D:\\dev\\cidr-static-react\\plugins",
-    "TEMP": "D:\\dev\\cidr-static-react\\tmp",
-    "PUBLIC": "D:\\dev\\cidr-static-react\\public",
-    "NODE_MODULES": "D:\\dev\\cidr-static-react\\node_modules",
-    "EXCLUDE_MODULES": "D:\\dev\\cidr-static-react\\node_modules",
-    "PACKAGE": "D:\\dev\\cidr-static-react\\package.json",
-    "HTML_TEMPLATE": "D:\\dev\\cidr-static-react\\dist\\index.html",
-    "STATIC_DATA": "D:\\dev\\cidr-static-react\\dist\\staticData"
+    "ROOT": "D:\\dev\\cidr.xyz",
+    "LOCAL_NODE_MODULES": "D:\\dev\\cidr.xyz\\node_modules\\react-static\\node_modules",
+    "SRC": "D:\\dev\\cidr.xyz\\src",
+    "PAGES": "D:\\dev\\cidr.xyz\\src\\pages",
+    "DIST": "D:\\dev\\cidr.xyz\\dist",
+    "ASSETS": "D:\\dev\\cidr.xyz\\dist",
+    "PLUGINS": "D:\\dev\\cidr.xyz\\plugins",
+    "TEMP": "D:\\dev\\cidr.xyz\\tmp",
+    "PUBLIC": "D:\\dev\\cidr.xyz\\public",
+    "NODE_MODULES": "D:\\dev\\cidr.xyz\\node_modules",
+    "EXCLUDE_MODULES": "D:\\dev\\cidr.xyz\\node_modules",
+    "PACKAGE": "D:\\dev\\cidr.xyz\\package.json",
+    "HTML_TEMPLATE": "D:\\dev\\cidr.xyz\\dist\\index.html",
+    "STATIC_DATA": "D:\\dev\\cidr.xyz\\dist\\staticData"
   },
   "babelExcludes": [],
   "siteRoot": "",

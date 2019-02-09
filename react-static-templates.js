@@ -1,5 +1,5 @@
 
-import universal, { setHasBabelPlugin } from 'D:/dev/cidr-static-react/node_modules/react-universal-component/dist/index.js'
+import universal, { setHasBabelPlugin } from 'D:/dev/cidr.xyz/node_modules/react-universal-component/dist/index.js'
 
 
 setHasBabelPlugin()
