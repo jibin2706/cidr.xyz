@@ -3,6 +3,7 @@ import { Netmask } from "netmask";
 import Header from "./components/header";
 
 import Footer from "./components/footer";
+import Meta from "./components/meta";
 
 class App extends Component {
   constructor(props) {
@@ -55,6 +56,7 @@ class App extends Component {
 
     return (
       <div className="container">
+        <Meta />
         <Header />
         <div className="ip-address">
           <div className="address">
