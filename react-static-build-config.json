@@ -1,0 +1,67 @@
+{
+  "entry": "D:\\dev\\cidr-static-react\\src\\index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "plugins": [
+    {
+      "location": "D:\\dev\\cidr-static-react\\node_modules\\react-static-plugin-sass",
+      "nodeLocation": "D:\\dev\\cidr-static-react\\node_modules\\react-static-plugin-sass\\node.api.js",
+      "options": {},
+      "hooks": {}
+    },
+    {
+      "location": "D:\\dev\\cidr-static-react",
+      "options": {},
+      "hooks": {}
+    }
+  ],
+  "paths": {
+    "ROOT": "D:\\dev\\cidr-static-react",
+    "LOCAL_NODE_MODULES": "D:\\dev\\cidr-static-react\\node_modules\\react-static\\node_modules",
+    "SRC": "D:\\dev\\cidr-static-react\\src",
+    "PAGES": "D:\\dev\\cidr-static-react\\src\\pages",
+    "DIST": "D:\\dev\\cidr-static-react\\dist",
+    "ASSETS": "D:\\dev\\cidr-static-react\\dist",
+    "PLUGINS": "D:\\dev\\cidr-static-react\\plugins",
+    "TEMP": "D:\\dev\\cidr-static-react\\tmp",
+    "PUBLIC": "D:\\dev\\cidr-static-react\\public",
+    "NODE_MODULES": "D:\\dev\\cidr-static-react\\node_modules",
+    "EXCLUDE_MODULES": "D:\\dev\\cidr-static-react\\node_modules",
+    "PACKAGE": "D:\\dev\\cidr-static-react\\package.json",
+    "HTML_TEMPLATE": "D:\\dev\\cidr-static-react\\dist\\index.html",
+    "STATIC_DATA": "D:\\dev\\cidr-static-react\\dist\\staticData"
+  },
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "routes": [
+    {
+      "path": "404",
+      "component": "node_modules\\react-static\\lib\\browser\\components\\Default404",
+      "template": "../node_modules/react-static/lib/browser/components/Default404"
+    },
+    {
+      "path": "/",
+      "originalPath": "/",
+      "hasGetProps": false,
+      "fromConfig": true
+    }
+  ],
+  "templates": [
+    "../node_modules/react-static/lib/browser/components/Default404"
+  ]
+}
