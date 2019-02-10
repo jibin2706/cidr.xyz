@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.ccafa057.js (284 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (298 KiB)\n      templates/vendors~main.ccafa057.js\n      main.7ddb47e3.css\n      main.587cca38.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (298 KiB)\n      templates/vendors~main.ccafa057.js\n      main.8658b788.css\n      main.e0ecd402.js\n"
   ],
   "version": "4.29.3",
-  "hash": "587cca381ff6c4405e3a",
-  "time": 31838,
-  "builtAt": 1549737162705,
+  "hash": "e0ecd402552201ad0ad6",
+  "time": 6649,
+  "builtAt": 1549757190313,
   "publicPath": "/",
   "outputPath": "D:\\dev\\cidr.xyz\\dist",
   "assetsByChunkName": {
     "main": [
-      "main.7ddb47e3.css",
-      "main.587cca38.js",
-      "main.587cca38.js.map"
+      "main.8658b788.css",
+      "main.e0ecd402.js",
+      "main.e0ecd402.js.map"
     ],
     "node_modules-react-static-lib-browser-components-Default404": [
       "templates/node_modules-react-static-lib-browser-components-Default404.bda27d0d.js",
@@ -27,30 +27,30 @@
   },
   "assets": [
     {
-      "name": "main.587cca38.js",
-      "size": 11100,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.587cca38.js.map",
-      "size": 26478,
-      "chunks": [
-        0
-      ],
-      "chunkNames": [
-        "main"
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.7ddb47e3.css",
+      "name": "main.8658b788.css",
       "size": 2859,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "main.e0ecd402.js",
+      "size": 11137,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "main.e0ecd402.js.map",
+      "size": 26608,
       "chunks": [
         0
       ],
@@ -115,9 +115,9 @@
       "assets": [
         "templates/vendors~main.ccafa057.js",
         "templates/vendors~main.ccafa057.js.map",
-        "main.7ddb47e3.css",
-        "main.587cca38.js",
-        "main.587cca38.js.map"
+        "main.8658b788.css",
+        "main.e0ecd402.js",
+        "main.e0ecd402.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -133,9 +133,9 @@
       "assets": [
         "templates/vendors~main.ccafa057.js",
         "templates/vendors~main.ccafa057.js.map",
-        "main.7ddb47e3.css",
-        "main.587cca38.js",
-        "main.587cca38.js.map"
+        "main.8658b788.css",
+        "main.e0ecd402.js",
+        "main.e0ecd402.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -159,16 +159,16 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 16628,
+      "size": 16669,
       "names": [
         "main"
       ],
       "files": [
-        "main.7ddb47e3.css",
-        "main.587cca38.js",
-        "main.587cca38.js.map"
+        "main.8658b788.css",
+        "main.e0ecd402.js",
+        "main.e0ecd402.js.map"
       ],
-      "hash": "7ddb47e3dd0f6a91d8c6",
+      "hash": "8658b7884b1b1d9c3785",
       "siblings": [
         2
       ],
@@ -475,7 +475,7 @@
           "name": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "index": 65,
           "index2": 121,
-          "size": 10837,
+          "size": 10878,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -574,7 +574,7 @@
               "name": "D:/dev/cidr.xyz/src/App.js",
               "index": 73,
               "index2": 120,
-              "size": 6219,
+              "size": 6260,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -641,7 +641,7 @@
               ],
               "optimizationBailout": [],
               "depth": 3,
-              "source": "function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _toConsumableArray(arr){return _arrayWithoutHoles(arr)||_iterableToArray(arr)||_nonIterableSpread();}function _nonIterableSpread(){throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter){if(Symbol.iterator in Object(iter)||Object.prototype.toString.call(iter)===\"[object Arguments]\")return Array.from(iter);}function _arrayWithoutHoles(arr){if(Array.isArray(arr)){for(var i=0,arr2=new Array(arr.length);i<arr.length;i++){arr2[i]=arr[i];}return arr2;}}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}import React,{Component}from\"react\";import ReactGA from\"react-ga\";import{Netmask}from\"netmask\";import Header from\"./components/header\";import Footer from\"./components/footer\";import Meta from\"./components/meta\";function initializeReactGA(){ReactGA.initialize(\"UA-133322442-2\");ReactGA.pageview(\"/\");}var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(props){var _this;_classCallCheck(this,App);_this=_possibleConstructorReturn(this,_getPrototypeOf(App).call(this,props));_this.state={octets:[10,88,135,144],cidr:28};_this.handleChange=_this.handleChange.bind(_assertThisInitialized(_assertThisInitialized(_this)));_this.handleKeyDown=_this.handleKeyDown.bind(_assertThisInitialized(_assertThisInitialized(_this)));return _this;}_createClass(App,[{key:\"componentDidMount\",value:function componentDidMount(){initializeReactGA();}},{key:\"handleChange\",value:function handleChange(event){var octets=this.state.octets;var val=+event.target.value.replace(/[^0-9]/g,\"\");var octet=event.target.attributes[\"data-octet\"].value;if(octet===\"cidr\"){if(val<=32){this.setState({cidr:val});}}else if(val<=255){octets[+octet]=val;this.setState({octets:octets});}}},{key:\"handleKeyDown\",value:function handleKeyDown(event){var lowerOctetValue=0;var higherOctetValue=event.target.dataset.octet===\"cidr\"?32:255;if(event.key===\"ArrowDown\"&&event.target.value>lowerOctetValue){event.target.value=+event.target.value-1;this.handleChange(event);}if(event.key===\"ArrowUp\"&&event.target.value<higherOctetValue){event.target.value=+event.target.value+1;this.handleChange(event);}}},{key:\"getPretty\",value:function getPretty(){return\"\".concat(this.state.octets.join(\".\"),\" / \").concat(this.state.cidr);}},{key:\"render\",value:function render(){var _this2=this;var details=new Netmask(this.getPretty());return React.createElement(\"div\",{className:\"container\"},React.createElement(Meta,null),React.createElement(Header,null),React.createElement(\"div\",{className:\"ip-address\"},React.createElement(\"div\",{className:\"address\"},_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"span\",{className:\"octet\"},React.createElement(\"input\",{className:\"octet\",type:\"text\",\"data-octet\":octet,onChange:_this2.handleChange,onKeyDown:_this2.handleKeyDown,value:_this2.state.octets[octet]}),React.createElement(\"span\",{className:\"dot\"},octet===3?\"/\":\".\"));}),React.createElement(\"input\",{className:\"cidr\",type:\"text\",\"data-octet\":\"cidr\",onChange:this.handleChange,onKeyDown:this.handleKeyDown,value:this.state.cidr})),React.createElement(\"div\",{className:\"bits\"},React.createElement(\"ol\",null,_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"li\",{className:\"octet\"},React.createElement(\"ol\",null,_toConsumableArray(Array(8)).map(function(x,bit){return React.createElement(\"li\",{className:octet*8+bit>_this2.state.cidr-1?\"bit masked\":\"bit unmasked\"},(_this2.state.octets[octet]&1<<7-bit)>>7-bit);})));}))),React.createElement(\"div\",{className:\"details\"},React.createElement(\"span\",{className:\"netmask\"},React.createElement(\"span\",{className:\"value\"},details.mask),React.createElement(\"span\",{className:\"label\"},\"Netmask\")),React.createElement(\"span\",{className:\"first\"},React.createElement(\"span\",{className:\"value\"},details.first),React.createElement(\"span\",{className:\"label\"},\"First IP\")),React.createElement(\"span\",{className:\"last\"},React.createElement(\"span\",{className:\"value\"},details.last),React.createElement(\"span\",{className:\"label\"},\"Last IP\")),React.createElement(\"span\",{className:\"count\"},React.createElement(\"span\",{className:\"value\"},details.size.toLocaleString()),React.createElement(\"span\",{className:\"label\"},\"Count\")))),React.createElement(Footer,null));}}]);return App;}(Component);export default App;"
+              "source": "function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _toConsumableArray(arr){return _arrayWithoutHoles(arr)||_iterableToArray(arr)||_nonIterableSpread();}function _nonIterableSpread(){throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter){if(Symbol.iterator in Object(iter)||Object.prototype.toString.call(iter)===\"[object Arguments]\")return Array.from(iter);}function _arrayWithoutHoles(arr){if(Array.isArray(arr)){for(var i=0,arr2=new Array(arr.length);i<arr.length;i++){arr2[i]=arr[i];}return arr2;}}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}import React,{Component}from\"react\";import ReactGA from\"react-ga\";import{Netmask}from\"netmask\";import Header from\"./components/header\";import Footer from\"./components/footer\";import Meta from\"./components/meta\";function initializeReactGA(){ReactGA.initialize(\"UA-133322442-2\");ReactGA.pageview(\"/\");}var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(props){var _this;_classCallCheck(this,App);_this=_possibleConstructorReturn(this,_getPrototypeOf(App).call(this,props));_this.state={octets:[10,88,135,144],cidr:28};_this.handleChange=_this.handleChange.bind(_assertThisInitialized(_assertThisInitialized(_this)));_this.handleKeyDown=_this.handleKeyDown.bind(_assertThisInitialized(_assertThisInitialized(_this)));return _this;}_createClass(App,[{key:\"componentDidMount\",value:function componentDidMount(){initializeReactGA();}},{key:\"handleChange\",value:function handleChange(event){var octets=this.state.octets;var val=+event.target.value.replace(/[^0-9]/g,\"\");var octet=event.target.attributes[\"data-octet\"].value;if(octet===\"cidr\"){if(val<=32){this.setState({cidr:val});}}else if(val<=255){octets[+octet]=val;this.setState({octets:octets});}}},{key:\"handleKeyDown\",value:function handleKeyDown(event){var lowerOctetValue=0;var higherOctetValue=event.target.dataset.octet===\"cidr\"?32:255;if(event.key===\"ArrowDown\"&&event.target.value>lowerOctetValue){event.target.value=+event.target.value-1;this.handleChange(event);}if(event.key===\"ArrowUp\"&&event.target.value<higherOctetValue){event.target.value=+event.target.value+1;this.handleChange(event);}}},{key:\"getPretty\",value:function getPretty(){return\"\".concat(this.state.octets.join(\".\"),\" / \").concat(this.state.cidr);}},{key:\"render\",value:function render(){var _this2=this;var details=new Netmask(this.getPretty());return React.createElement(React.Fragment,null,React.createElement(Meta,null),React.createElement(\"div\",{className:\"container\"},React.createElement(Header,null),React.createElement(\"div\",{className:\"ip-address\"},React.createElement(\"div\",{className:\"address\"},_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"span\",{className:\"octet\"},React.createElement(\"input\",{className:\"octet\",type:\"text\",\"data-octet\":octet,onChange:_this2.handleChange,onKeyDown:_this2.handleKeyDown,value:_this2.state.octets[octet]}),React.createElement(\"span\",{className:\"dot\"},octet===3?\"/\":\".\"));}),React.createElement(\"input\",{className:\"cidr\",type:\"text\",\"data-octet\":\"cidr\",onChange:this.handleChange,onKeyDown:this.handleKeyDown,value:this.state.cidr})),React.createElement(\"div\",{className:\"bits\"},React.createElement(\"ol\",null,_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"li\",{className:\"octet\"},React.createElement(\"ol\",null,_toConsumableArray(Array(8)).map(function(x,bit){return React.createElement(\"li\",{className:octet*8+bit>_this2.state.cidr-1?\"bit masked\":\"bit unmasked\"},(_this2.state.octets[octet]&1<<7-bit)>>7-bit);})));}))),React.createElement(\"div\",{className:\"details\"},React.createElement(\"span\",{className:\"netmask\"},React.createElement(\"span\",{className:\"value\"},details.mask),React.createElement(\"span\",{className:\"label\"},\"Netmask\")),React.createElement(\"span\",{className:\"first\"},React.createElement(\"span\",{className:\"value\"},details.first),React.createElement(\"span\",{className:\"label\"},\"First IP\")),React.createElement(\"span\",{className:\"last\"},React.createElement(\"span\",{className:\"value\"},details.last),React.createElement(\"span\",{className:\"label\"},\"Last IP\")),React.createElement(\"span\",{className:\"count\"},React.createElement(\"span\",{className:\"value\"},details.size.toLocaleString()),React.createElement(\"span\",{className:\"label\"},\"Count\")))),React.createElement(Footer,null)));}}]);return App;}(Component);export default App;"
             },
             {
               "id": null,
@@ -701,7 +701,7 @@
                   "moduleName": "D:/dev/cidr.xyz/src/App.js",
                   "type": "harmony import specifier",
                   "userRequest": "./components/header",
-                  "loc": "1:4367-4373"
+                  "loc": "1:4407-4413"
                 }
               ],
               "usedExports": [
@@ -772,7 +772,7 @@
                   "moduleName": "D:/dev/cidr.xyz/src/App.js",
                   "type": "harmony import specifier",
                   "userRequest": "./components/footer",
-                  "loc": "1:6157-6163"
+                  "loc": "1:6197-6203"
                 }
               ],
               "usedExports": [
@@ -843,7 +843,7 @@
                   "moduleName": "D:/dev/cidr.xyz/src/App.js",
                   "type": "harmony import specifier",
                   "userRequest": "./components/meta",
-                  "loc": "1:4336-4340"
+                  "loc": "1:4326-4330"
                 }
               ],
               "usedExports": [
@@ -1495,7 +1495,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4316-4321"
+              "loc": "1:4286-4291"
             },
             {
               "moduleId": 104,
@@ -1504,7 +1504,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4347-4352"
+              "loc": "1:4306-4311"
             },
             {
               "moduleId": 104,
@@ -1513,7 +1513,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4380-4385"
+              "loc": "1:4337-4342"
             },
             {
               "moduleId": 104,
@@ -1522,7 +1522,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4431-4436"
+              "loc": "1:4387-4392"
             },
             {
               "moduleId": 104,
@@ -1531,7 +1531,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4537-4542"
+              "loc": "1:4420-4425"
             },
             {
               "moduleId": 104,
@@ -1540,7 +1540,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4584-4589"
+              "loc": "1:4471-4476"
             },
             {
               "moduleId": 104,
@@ -1549,7 +1549,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4757-4762"
+              "loc": "1:4577-4582"
             },
             {
               "moduleId": 104,
@@ -1558,7 +1558,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4825-4830"
+              "loc": "1:4624-4629"
             },
             {
               "moduleId": 104,
@@ -1567,7 +1567,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4984-4989"
+              "loc": "1:4797-4802"
             },
             {
               "moduleId": 104,
@@ -1576,7 +1576,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5029-5034"
+              "loc": "1:4865-4870"
             },
             {
               "moduleId": 104,
@@ -1585,7 +1585,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5117-5122"
+              "loc": "1:5024-5029"
             },
             {
               "moduleId": 104,
@@ -1594,7 +1594,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5162-5167"
+              "loc": "1:5069-5074"
             },
             {
               "moduleId": 104,
@@ -1603,7 +1603,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5248-5253"
+              "loc": "1:5157-5162"
             },
             {
               "moduleId": 104,
@@ -1612,7 +1612,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5401-5406"
+              "loc": "1:5202-5207"
             },
             {
               "moduleId": 104,
@@ -1621,7 +1621,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5449-5454"
+              "loc": "1:5288-5293"
             },
             {
               "moduleId": 104,
@@ -1630,7 +1630,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5498-5503"
+              "loc": "1:5441-5446"
             },
             {
               "moduleId": 104,
@@ -1639,7 +1639,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5559-5564"
+              "loc": "1:5489-5494"
             },
             {
               "moduleId": 104,
@@ -1648,7 +1648,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5618-5623"
+              "loc": "1:5538-5543"
             },
             {
               "moduleId": 104,
@@ -1657,7 +1657,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5665-5670"
+              "loc": "1:5599-5604"
             },
             {
               "moduleId": 104,
@@ -1666,7 +1666,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5727-5732"
+              "loc": "1:5658-5663"
             },
             {
               "moduleId": 104,
@@ -1675,7 +1675,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5787-5792"
+              "loc": "1:5705-5710"
             },
             {
               "moduleId": 104,
@@ -1684,7 +1684,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5833-5838"
+              "loc": "1:5767-5772"
             },
             {
               "moduleId": 104,
@@ -1693,7 +1693,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5894-5899"
+              "loc": "1:5827-5832"
             },
             {
               "moduleId": 104,
@@ -1702,7 +1702,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5953-5958"
+              "loc": "1:5873-5878"
             },
             {
               "moduleId": 104,
@@ -1711,7 +1711,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6000-6005"
+              "loc": "1:5934-5939"
             },
             {
               "moduleId": 104,
@@ -1720,7 +1720,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6078-6083"
+              "loc": "1:5993-5998"
             },
             {
               "moduleId": 104,
@@ -1729,7 +1729,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6137-6142"
+              "loc": "1:6040-6045"
             },
             {
               "moduleId": 104,
@@ -1738,7 +1738,25 @@
               "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6189-6198"
+              "loc": "1:6118-6123"
+            },
+            {
+              "moduleId": 104,
+              "moduleIdentifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\dev\\cidr.xyz\\src\\index.js 208f670111ba3684e2a9d0ae821fa899",
+              "module": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+              "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:6177-6182"
+            },
+            {
+              "moduleId": 104,
+              "moduleIdentifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\dev\\cidr.xyz\\src\\index.js 208f670111ba3684e2a9d0ae821fa899",
+              "module": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+              "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:6230-6239"
             },
             {
               "moduleId": 104,
@@ -2966,9 +2984,9 @@
           "chunks": [
             2
           ],
-          "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "issuerId": 72,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "issuerId": 45,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 44,
@@ -2976,9 +2994,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -3217,9 +3235,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -3675,9 +3693,9 @@
           "chunks": [
             2
           ],
-          "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "issuerId": 72,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "issuerId": 45,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 44,
@@ -3685,9 +3703,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -3791,9 +3809,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -3893,9 +3911,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -3995,9 +4013,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -4510,9 +4528,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -4784,9 +4802,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -4939,9 +4957,9 @@
           "chunks": [
             2
           ],
-          "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\SiteData.js",
-          "issuerId": 94,
-          "issuerName": "../lib/browser/components/SiteData.js",
+          "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\RouteData.js",
+          "issuerId": 93,
+          "issuerName": "../lib/browser/components/RouteData.js",
           "issuerPath": [
             {
               "id": 44,
@@ -4974,9 +4992,9 @@
               "name": "../lib/index.js"
             },
             {
-              "id": 94,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\SiteData.js",
-              "name": "../lib/browser/components/SiteData.js"
+              "id": 93,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\RouteData.js",
+              "name": "../lib/browser/components/RouteData.js"
             }
           ],
           "failed": false,
@@ -6569,9 +6587,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -6635,9 +6653,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -6711,9 +6729,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -6792,9 +6810,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -6878,9 +6896,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -6954,9 +6972,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -7030,9 +7048,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8153,9 +8171,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8215,9 +8233,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8282,9 +8300,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8344,9 +8362,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8416,9 +8434,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8483,9 +8501,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8555,9 +8573,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8632,9 +8650,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8714,9 +8732,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8791,9 +8809,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8868,9 +8886,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -8945,9 +8963,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9022,9 +9040,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9099,9 +9117,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9171,9 +9189,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9243,9 +9261,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9320,9 +9338,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9397,9 +9415,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9474,9 +9492,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9541,9 +9559,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9608,9 +9626,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9673,9 +9691,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9745,9 +9763,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -9822,9 +9840,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 72,
-              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 45,
+              "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 7,
@@ -13029,7 +13047,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4316-4321"
+          "loc": "1:4286-4291"
         },
         {
           "moduleId": 104,
@@ -13038,7 +13056,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4347-4352"
+          "loc": "1:4306-4311"
         },
         {
           "moduleId": 104,
@@ -13047,7 +13065,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4380-4385"
+          "loc": "1:4337-4342"
         },
         {
           "moduleId": 104,
@@ -13056,7 +13074,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4431-4436"
+          "loc": "1:4387-4392"
         },
         {
           "moduleId": 104,
@@ -13065,7 +13083,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4537-4542"
+          "loc": "1:4420-4425"
         },
         {
           "moduleId": 104,
@@ -13074,7 +13092,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4584-4589"
+          "loc": "1:4471-4476"
         },
         {
           "moduleId": 104,
@@ -13083,7 +13101,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4757-4762"
+          "loc": "1:4577-4582"
         },
         {
           "moduleId": 104,
@@ -13092,7 +13110,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4825-4830"
+          "loc": "1:4624-4629"
         },
         {
           "moduleId": 104,
@@ -13101,7 +13119,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4984-4989"
+          "loc": "1:4797-4802"
         },
         {
           "moduleId": 104,
@@ -13110,7 +13128,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5029-5034"
+          "loc": "1:4865-4870"
         },
         {
           "moduleId": 104,
@@ -13119,7 +13137,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5117-5122"
+          "loc": "1:5024-5029"
         },
         {
           "moduleId": 104,
@@ -13128,7 +13146,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5162-5167"
+          "loc": "1:5069-5074"
         },
         {
           "moduleId": 104,
@@ -13137,7 +13155,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5248-5253"
+          "loc": "1:5157-5162"
         },
         {
           "moduleId": 104,
@@ -13146,7 +13164,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5401-5406"
+          "loc": "1:5202-5207"
         },
         {
           "moduleId": 104,
@@ -13155,7 +13173,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5449-5454"
+          "loc": "1:5288-5293"
         },
         {
           "moduleId": 104,
@@ -13164,7 +13182,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5498-5503"
+          "loc": "1:5441-5446"
         },
         {
           "moduleId": 104,
@@ -13173,7 +13191,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5559-5564"
+          "loc": "1:5489-5494"
         },
         {
           "moduleId": 104,
@@ -13182,7 +13200,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5618-5623"
+          "loc": "1:5538-5543"
         },
         {
           "moduleId": 104,
@@ -13191,7 +13209,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5665-5670"
+          "loc": "1:5599-5604"
         },
         {
           "moduleId": 104,
@@ -13200,7 +13218,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5727-5732"
+          "loc": "1:5658-5663"
         },
         {
           "moduleId": 104,
@@ -13209,7 +13227,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5787-5792"
+          "loc": "1:5705-5710"
         },
         {
           "moduleId": 104,
@@ -13218,7 +13236,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5833-5838"
+          "loc": "1:5767-5772"
         },
         {
           "moduleId": 104,
@@ -13227,7 +13245,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5894-5899"
+          "loc": "1:5827-5832"
         },
         {
           "moduleId": 104,
@@ -13236,7 +13254,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5953-5958"
+          "loc": "1:5873-5878"
         },
         {
           "moduleId": 104,
@@ -13245,7 +13263,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6000-6005"
+          "loc": "1:5934-5939"
         },
         {
           "moduleId": 104,
@@ -13254,7 +13272,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6078-6083"
+          "loc": "1:5993-5998"
         },
         {
           "moduleId": 104,
@@ -13263,7 +13281,7 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6137-6142"
+          "loc": "1:6040-6045"
         },
         {
           "moduleId": 104,
@@ -13272,7 +13290,25 @@
           "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6189-6198"
+          "loc": "1:6118-6123"
+        },
+        {
+          "moduleId": 104,
+          "moduleIdentifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\dev\\cidr.xyz\\src\\index.js 208f670111ba3684e2a9d0ae821fa899",
+          "module": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+          "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:6177-6182"
+        },
+        {
+          "moduleId": 104,
+          "moduleIdentifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!D:\\dev\\cidr.xyz\\src\\index.js 208f670111ba3684e2a9d0ae821fa899",
+          "module": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+          "moduleName": "D:/dev/cidr.xyz/src/index.js + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:6230-6239"
         },
         {
           "moduleId": 104,
@@ -14500,9 +14536,9 @@
       "chunks": [
         2
       ],
-      "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-      "issuerId": 72,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+      "issuerId": 45,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 44,
@@ -14510,9 +14546,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -14751,9 +14787,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -15209,9 +15245,9 @@
       "chunks": [
         2
       ],
-      "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-      "issuerId": 72,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+      "issuerId": 45,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 44,
@@ -15219,9 +15255,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -15325,9 +15361,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -15427,9 +15463,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -15529,9 +15565,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -16044,9 +16080,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -16318,9 +16354,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -16473,9 +16509,9 @@
       "chunks": [
         2
       ],
-      "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\SiteData.js",
-      "issuerId": 94,
-      "issuerName": "../lib/browser/components/SiteData.js",
+      "issuer": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\RouteData.js",
+      "issuerId": 93,
+      "issuerName": "../lib/browser/components/RouteData.js",
       "issuerPath": [
         {
           "id": 44,
@@ -16508,9 +16544,9 @@
           "name": "../lib/index.js"
         },
         {
-          "id": 94,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\SiteData.js",
-          "name": "../lib/browser/components/SiteData.js"
+          "id": 93,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\browser\\components\\RouteData.js",
+          "name": "../lib/browser/components/RouteData.js"
         }
       ],
       "failed": false,
@@ -18166,9 +18202,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -18232,9 +18268,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -18308,9 +18344,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -18389,9 +18425,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -18475,9 +18511,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -18551,9 +18587,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -18627,9 +18663,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -19917,9 +19953,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -19979,9 +20015,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20046,9 +20082,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20108,9 +20144,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20180,9 +20216,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20247,9 +20283,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20319,9 +20355,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20396,9 +20432,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20478,9 +20514,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20555,9 +20591,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20632,9 +20668,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20709,9 +20745,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20786,9 +20822,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20863,9 +20899,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -20935,9 +20971,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21007,9 +21043,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21084,9 +21120,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21161,9 +21197,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21238,9 +21274,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21305,9 +21341,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21372,9 +21408,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21437,9 +21473,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21509,9 +21545,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -21586,9 +21622,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 72,
-          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 45,
+          "identifier": "D:\\dev\\cidr.xyz\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!D:\\dev\\cidr.xyz\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 7,
@@ -23982,7 +24018,7 @@
       "name": "D:/dev/cidr.xyz/src/index.js + 4 modules",
       "index": 65,
       "index2": 121,
-      "size": 10837,
+      "size": 10878,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -24081,7 +24117,7 @@
           "name": "D:/dev/cidr.xyz/src/App.js",
           "index": 73,
           "index2": 120,
-          "size": 6219,
+          "size": 6260,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -24148,7 +24184,7 @@
           ],
           "optimizationBailout": [],
           "depth": 3,
-          "source": "function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _toConsumableArray(arr){return _arrayWithoutHoles(arr)||_iterableToArray(arr)||_nonIterableSpread();}function _nonIterableSpread(){throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter){if(Symbol.iterator in Object(iter)||Object.prototype.toString.call(iter)===\"[object Arguments]\")return Array.from(iter);}function _arrayWithoutHoles(arr){if(Array.isArray(arr)){for(var i=0,arr2=new Array(arr.length);i<arr.length;i++){arr2[i]=arr[i];}return arr2;}}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}import React,{Component}from\"react\";import ReactGA from\"react-ga\";import{Netmask}from\"netmask\";import Header from\"./components/header\";import Footer from\"./components/footer\";import Meta from\"./components/meta\";function initializeReactGA(){ReactGA.initialize(\"UA-133322442-2\");ReactGA.pageview(\"/\");}var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(props){var _this;_classCallCheck(this,App);_this=_possibleConstructorReturn(this,_getPrototypeOf(App).call(this,props));_this.state={octets:[10,88,135,144],cidr:28};_this.handleChange=_this.handleChange.bind(_assertThisInitialized(_assertThisInitialized(_this)));_this.handleKeyDown=_this.handleKeyDown.bind(_assertThisInitialized(_assertThisInitialized(_this)));return _this;}_createClass(App,[{key:\"componentDidMount\",value:function componentDidMount(){initializeReactGA();}},{key:\"handleChange\",value:function handleChange(event){var octets=this.state.octets;var val=+event.target.value.replace(/[^0-9]/g,\"\");var octet=event.target.attributes[\"data-octet\"].value;if(octet===\"cidr\"){if(val<=32){this.setState({cidr:val});}}else if(val<=255){octets[+octet]=val;this.setState({octets:octets});}}},{key:\"handleKeyDown\",value:function handleKeyDown(event){var lowerOctetValue=0;var higherOctetValue=event.target.dataset.octet===\"cidr\"?32:255;if(event.key===\"ArrowDown\"&&event.target.value>lowerOctetValue){event.target.value=+event.target.value-1;this.handleChange(event);}if(event.key===\"ArrowUp\"&&event.target.value<higherOctetValue){event.target.value=+event.target.value+1;this.handleChange(event);}}},{key:\"getPretty\",value:function getPretty(){return\"\".concat(this.state.octets.join(\".\"),\" / \").concat(this.state.cidr);}},{key:\"render\",value:function render(){var _this2=this;var details=new Netmask(this.getPretty());return React.createElement(\"div\",{className:\"container\"},React.createElement(Meta,null),React.createElement(Header,null),React.createElement(\"div\",{className:\"ip-address\"},React.createElement(\"div\",{className:\"address\"},_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"span\",{className:\"octet\"},React.createElement(\"input\",{className:\"octet\",type:\"text\",\"data-octet\":octet,onChange:_this2.handleChange,onKeyDown:_this2.handleKeyDown,value:_this2.state.octets[octet]}),React.createElement(\"span\",{className:\"dot\"},octet===3?\"/\":\".\"));}),React.createElement(\"input\",{className:\"cidr\",type:\"text\",\"data-octet\":\"cidr\",onChange:this.handleChange,onKeyDown:this.handleKeyDown,value:this.state.cidr})),React.createElement(\"div\",{className:\"bits\"},React.createElement(\"ol\",null,_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"li\",{className:\"octet\"},React.createElement(\"ol\",null,_toConsumableArray(Array(8)).map(function(x,bit){return React.createElement(\"li\",{className:octet*8+bit>_this2.state.cidr-1?\"bit masked\":\"bit unmasked\"},(_this2.state.octets[octet]&1<<7-bit)>>7-bit);})));}))),React.createElement(\"div\",{className:\"details\"},React.createElement(\"span\",{className:\"netmask\"},React.createElement(\"span\",{className:\"value\"},details.mask),React.createElement(\"span\",{className:\"label\"},\"Netmask\")),React.createElement(\"span\",{className:\"first\"},React.createElement(\"span\",{className:\"value\"},details.first),React.createElement(\"span\",{className:\"label\"},\"First IP\")),React.createElement(\"span\",{className:\"last\"},React.createElement(\"span\",{className:\"value\"},details.last),React.createElement(\"span\",{className:\"label\"},\"Last IP\")),React.createElement(\"span\",{className:\"count\"},React.createElement(\"span\",{className:\"value\"},details.size.toLocaleString()),React.createElement(\"span\",{className:\"label\"},\"Count\")))),React.createElement(Footer,null));}}]);return App;}(Component);export default App;"
+          "source": "function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _toConsumableArray(arr){return _arrayWithoutHoles(arr)||_iterableToArray(arr)||_nonIterableSpread();}function _nonIterableSpread(){throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter){if(Symbol.iterator in Object(iter)||Object.prototype.toString.call(iter)===\"[object Arguments]\")return Array.from(iter);}function _arrayWithoutHoles(arr){if(Array.isArray(arr)){for(var i=0,arr2=new Array(arr.length);i<arr.length;i++){arr2[i]=arr[i];}return arr2;}}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}import React,{Component}from\"react\";import ReactGA from\"react-ga\";import{Netmask}from\"netmask\";import Header from\"./components/header\";import Footer from\"./components/footer\";import Meta from\"./components/meta\";function initializeReactGA(){ReactGA.initialize(\"UA-133322442-2\");ReactGA.pageview(\"/\");}var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(props){var _this;_classCallCheck(this,App);_this=_possibleConstructorReturn(this,_getPrototypeOf(App).call(this,props));_this.state={octets:[10,88,135,144],cidr:28};_this.handleChange=_this.handleChange.bind(_assertThisInitialized(_assertThisInitialized(_this)));_this.handleKeyDown=_this.handleKeyDown.bind(_assertThisInitialized(_assertThisInitialized(_this)));return _this;}_createClass(App,[{key:\"componentDidMount\",value:function componentDidMount(){initializeReactGA();}},{key:\"handleChange\",value:function handleChange(event){var octets=this.state.octets;var val=+event.target.value.replace(/[^0-9]/g,\"\");var octet=event.target.attributes[\"data-octet\"].value;if(octet===\"cidr\"){if(val<=32){this.setState({cidr:val});}}else if(val<=255){octets[+octet]=val;this.setState({octets:octets});}}},{key:\"handleKeyDown\",value:function handleKeyDown(event){var lowerOctetValue=0;var higherOctetValue=event.target.dataset.octet===\"cidr\"?32:255;if(event.key===\"ArrowDown\"&&event.target.value>lowerOctetValue){event.target.value=+event.target.value-1;this.handleChange(event);}if(event.key===\"ArrowUp\"&&event.target.value<higherOctetValue){event.target.value=+event.target.value+1;this.handleChange(event);}}},{key:\"getPretty\",value:function getPretty(){return\"\".concat(this.state.octets.join(\".\"),\" / \").concat(this.state.cidr);}},{key:\"render\",value:function render(){var _this2=this;var details=new Netmask(this.getPretty());return React.createElement(React.Fragment,null,React.createElement(Meta,null),React.createElement(\"div\",{className:\"container\"},React.createElement(Header,null),React.createElement(\"div\",{className:\"ip-address\"},React.createElement(\"div\",{className:\"address\"},_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"span\",{className:\"octet\"},React.createElement(\"input\",{className:\"octet\",type:\"text\",\"data-octet\":octet,onChange:_this2.handleChange,onKeyDown:_this2.handleKeyDown,value:_this2.state.octets[octet]}),React.createElement(\"span\",{className:\"dot\"},octet===3?\"/\":\".\"));}),React.createElement(\"input\",{className:\"cidr\",type:\"text\",\"data-octet\":\"cidr\",onChange:this.handleChange,onKeyDown:this.handleKeyDown,value:this.state.cidr})),React.createElement(\"div\",{className:\"bits\"},React.createElement(\"ol\",null,_toConsumableArray(Array(4)).map(function(x,octet){return React.createElement(\"li\",{className:\"octet\"},React.createElement(\"ol\",null,_toConsumableArray(Array(8)).map(function(x,bit){return React.createElement(\"li\",{className:octet*8+bit>_this2.state.cidr-1?\"bit masked\":\"bit unmasked\"},(_this2.state.octets[octet]&1<<7-bit)>>7-bit);})));}))),React.createElement(\"div\",{className:\"details\"},React.createElement(\"span\",{className:\"netmask\"},React.createElement(\"span\",{className:\"value\"},details.mask),React.createElement(\"span\",{className:\"label\"},\"Netmask\")),React.createElement(\"span\",{className:\"first\"},React.createElement(\"span\",{className:\"value\"},details.first),React.createElement(\"span\",{className:\"label\"},\"First IP\")),React.createElement(\"span\",{className:\"last\"},React.createElement(\"span\",{className:\"value\"},details.last),React.createElement(\"span\",{className:\"label\"},\"Last IP\")),React.createElement(\"span\",{className:\"count\"},React.createElement(\"span\",{className:\"value\"},details.size.toLocaleString()),React.createElement(\"span\",{className:\"label\"},\"Count\")))),React.createElement(Footer,null)));}}]);return App;}(Component);export default App;"
         },
         {
           "id": null,
@@ -24208,7 +24244,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/App.js",
               "type": "harmony import specifier",
               "userRequest": "./components/header",
-              "loc": "1:4367-4373"
+              "loc": "1:4407-4413"
             }
           ],
           "usedExports": [
@@ -24279,7 +24315,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/App.js",
               "type": "harmony import specifier",
               "userRequest": "./components/footer",
-              "loc": "1:6157-6163"
+              "loc": "1:6197-6203"
             }
           ],
           "usedExports": [
@@ -24350,7 +24386,7 @@
               "moduleName": "D:/dev/cidr.xyz/src/App.js",
               "type": "harmony import specifier",
               "userRequest": "./components/meta",
-              "loc": "1:4336-4340"
+              "loc": "1:4326-4330"
             }
           ],
           "usedExports": [
