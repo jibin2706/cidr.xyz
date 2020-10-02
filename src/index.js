@@ -1,130 +1,118 @@
 import './style.scss';
 
 import { Netmask } from 'netmask';
-import React, { Component } from 'react';
+import React, {  useState } from 'react';
 import ReactDOM from 'react-dom';
 
-class IPAddress extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      octets: [10, 88, 135, 144],
-      cidr: 28
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleKeyDown = this.handleKeyDown.bind(this);
-  }
+function IPAddress() {
+  const [octets, setOctets] = useState([10, 88, 135, 144])
+  const [cidr, setCidr] = useState(28)
 
-  handleChange(event) {
-    var octets = this.state.octets;
+  const handleChange = (event) => {
+    var octets = octets;
     var val = +event.target.value.replace(/[^0-9]/g, '');
     var octet = event.target.attributes['data-octet'].value;
     if (octet == 'cidr') {
       if (val <= 32) {
-        this.setState({
-          cidr: val
-        });
+        setCidr(val)
       }
     } else {
       if (val <= 255) {
         octets[+octet] = val;
-        this.setState({
-          octets: octets
-        });
+        setOctets(octets)
       }
     }
   }
 
-  handleKeyDown(event) {
+  const handleKeyDown = (event) => {
     var lowerOctetValue = 0;
     var higherOctetValue = event.target.dataset.octet === 'cidr' ? 32 : 255;
     if (event.key === 'ArrowDown' && event.target.value > lowerOctetValue) {
       event.target.value = +event.target.value - 1;
-      this.handleChange(event);
+      handleChange(event);
     }
     if (event.key === 'ArrowUp' && event.target.value < higherOctetValue) {
       event.target.value = +event.target.value + 1;
-      this.handleChange(event);
+      handleChange(event);
     }
   }
 
-  getPretty() {
-    return this.state.octets.join('.') + '/' + this.state.cidr;
+  const getPretty = () => {
+    return octets.join('.') + '/' + cidr;
   }
 
-  render() {
-    var details = new Netmask(this.getPretty());
+  var details = new Netmask(getPretty());
 
-    return (
-      <div className="ip-address">
-        <div className="address">
-          {[...Array(4)].map((x, octet) => (
-            <span className="octet">
-              <input
-                className="octet"
-                type="text"
-                data-octet={octet}
-                onChange={this.handleChange}
-                onKeyDown={this.handleKeyDown}
-                value={this.state.octets[octet]}
-              />
-              <span className="dot">{octet == '3' ? '/' : '.'}</span>
-            </span>
-          ))}
-          <input
-            className="cidr"
-            type="text"
-            data-octet="cidr"
-            onChange={this.handleChange}
-            onKeyDown={this.handleKeyDown}
-            value={this.state.cidr}
-          />
-        </div>
-
-        <div className="bits">
-          <ol>
-            {[...Array(4)].map((x, octet) => (
-              <li className="octet">
-                <ol>
-                  {[...Array(8)].map((x, bit) => (
-                    <li
-                      className={
-                        octet * 8 + bit > this.state.cidr - 1
-                          ? 'bit masked'
-                          : 'bit unmasked'
-                      }
-                    >
-                      {(this.state.octets[octet] & (1 << (7 - bit))) >>
-                        (7 - bit)}
-                    </li>
-                  ))}
-                </ol>
-              </li>
-            ))}
-          </ol>
-        </div>
-
-        <div className="details">
-          <span className="netmask">
-            <span className="value">{details.mask}</span>
-            <span className="label">Netmask</span>
+  return (
+    <div className="ip-address">
+      <div className="address">
+        {[...Array(4)].map((_, octet) => (
+          <span className="octet" key={octet}>
+            <input
+              className="octet"
+              type="text"
+              data-octet={octet}
+              onChange={handleChange}
+              onKeyDown={handleKeyDown}
+              value={octets[octet]}
+            />
+            <span className="dot">{octet == '3' ? '/' : '.'}</span>
           </span>
-          <span className="first">
-            <span className="value">{details.first}</span>
-            <span className="label">First IP</span>
-          </span>
-          <span className="last">
-            <span className="value">{details.last}</span>
-            <span className="label">Last IP</span>
-          </span>
-          <span className="count">
-            <span className="value">{details.size.toLocaleString()}</span>
-            <span className="label">Count</span>
-          </span>
-        </div>
+        ))}
+        <input
+          className="cidr"
+          type="text"
+          data-octet="cidr"
+          onChange={handleChange}
+          onKeyDown={handleKeyDown}
+          value={cidr}
+        />
       </div>
-    );
-  }
+
+      <div className="bits">
+        <ol>
+          {[...Array(4)].map((_, octet) => (
+            <li className="octet" key={octet}>
+              <ol>
+                {[...Array(8)].map((_, bit) => (
+                  <li
+                    className={
+                      octet * 8 + bit > cidr - 1
+                        ? 'bit masked'
+                        : 'bit unmasked'
+                    }
+                    key={bit}
+                  >
+                    {(octets[octet] & (1 << (7 - bit))) >> (7 - bit)}
+                  </li>
+                ))}
+              </ol>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      <div className="details">
+        <span className="netmask">
+          <span className="value">{details.mask}</span>
+          <span className="label">Netmask</span>
+        </span>
+        <span className="first">
+          <span className="value">{details.first}</span>
+          <span className="label">First IP</span>
+        </span>
+        <span className="last">
+          <span className="value">{details.last}</span>
+          <span className="label">Last IP</span>
+        </span>
+        <span className="count">
+          <span className="value">{details.size.toLocaleString()}</span>
+          <span className="label">Count</span>
+        </span>
+      </div>
+    </div>
+  );
+
 }
 
 ReactDOM.render(<IPAddress />, document.getElementById('app'));
