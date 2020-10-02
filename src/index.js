@@ -46,6 +46,22 @@ class IPAddress extends Component {
       event.target.value = +event.target.value + 1;
       this.handleChange(event);
     }
+    if (event.key === '.') {
+      event.preventDefault()
+      var octet_input = event.target.parentNode.nextSibling.firstChild
+      if (octet_input instanceof HTMLInputElement) {
+        octet_input.select()
+        octet_input.focus()
+      }
+    }
+    if (event.key === '/') {
+      event.preventDefault()
+      var mask_input = event.target.parentNode.nextSibling
+      if (mask_input instanceof HTMLInputElement) {
+        mask_input.select()
+        mask_input.focus()
+      }
+    }
   }
 
   getPretty() {
@@ -111,11 +127,11 @@ class IPAddress extends Component {
           </span>
           <span className="first">
             <span className="value">{details.first}</span>
-            <span className="label">First IP</span>
+            <span className="label">First Usable IP</span>
           </span>
           <span className="last">
             <span className="value">{details.last}</span>
-            <span className="label">Last IP</span>
+            <span className="label">Last Usable IP</span>
           </span>
           <span className="count">
             <span className="value">{details.size.toLocaleString()}</span>
